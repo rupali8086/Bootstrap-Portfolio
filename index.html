@@ -1,12 +1,21 @@
+<!-- Author : Rupali Meshram  -->
 <!DOCTYPE html>
 <html>
 <head>
 	
+
+	<!-- Viewport for Media Queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
+
   	<title>Basic Portfolio Index </title>
+
+  	 <!-- Bootstrap CDN-->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
@@ -14,68 +23,34 @@
 
 <!-- NAVBAR -->	
 				
-		<nav class="navbar nav-head" >
+	<header id="navheader">
+    	<div class="container">
+      		<a href="index.html" id="logo">Rupali Meshram </a>
 
-				<div style="width: 100%;">
+      		<nav class="navbar  justify-content-center" id="list-top">
+       	    	<a href="index.html">About</a>
+            	<a href="portfolio.html">Portfolio</a>
+            	<a href="contact.html">Contact</a>
+            </nav>
+        </div> 
+    </header>
 
-				<div class="row">
 
-					<div class="col">
-						<h1>
-							Rupali Meshram
-						</h1>
-				    </div>
-
-					
-					<div class="col-6">
-
-						<ul class="nav justify-content-center">
-
-							<div class="col-m">
-								<li>
-								<a class="btn font-weight-bold" data-toggle="collapse" href="index.html" aria-expanded="false" aria-controls="collapseExample">
-    								About
-  								</a>
-  							</li>
-  							</div>
-  					
-							<div class="col-l">
-								<li>
-  								<a class="btn font-weight-bold" data-toggle="collapse" href="Portfolio.html" aria-expanded="false" aria-controls="collapseExample">
-    								Portfolio
-  								</a>
-  							</li>
- 							</div>
-
-							<div class="col-m">
-								<li>
- 					 			<a class="btn font-weight-bold " data-toggle="collapse" href="Contact.html" aria-expanded="false" aria-controls="collapseExample">
-    								Contact
-  								</a>
-  							</li>
-  							</div>
-  						</ul>
-
-  					</div>
-
-  					</div>
-				</div>
-			</nav>
-		</nav>	
-
-		<br>
 
 <!-- MAIN CONTENT -->
-		<main role="main" class="container" style="margin-top: 130px;">
+<div class="wrapper">
+    <div id="main-container" class="container">
 
-		<!-- first body row -->
-       	<div class="row" >
-       		<!-- firxt col -->
-       		<div class="col-7 main-section-content"> 
-					<!-- 1R1C-1R -->
+      <!-- Row 1 -->
+    	<div class="row" >
+       		<!-- first col -->
+       		<div class="col-xs-12 main-section-content"> 
+
+       				<!-- 1R1C-1R -->
 					<div class="row" >
 						<h2 class="font-weight-bold">About Me</h2>
 					</div>
+
 					<!-- 1R1C-2R -->
 					<div class="row-7">
 				 		<hr>
@@ -83,20 +58,20 @@
       	
       				<!-- 1R1C-3R -->
 					<div class="row">
-					<!-- 1R1C-3R-1c -->
-					<div class="col-4 img-fluid">
-						<img id="pic" src="assets/image/me.jpg" alt="My pic" >
-					</div>
-					<!-- 1R1C-3R-2c -->
-					<div class="col-6">
-						<p style="margin-left: 50px;">
+						<!-- 1R1C-3R-1c -->
+						<div class="col-4">
+							<img class="img-thumbnail" id="pic" src="assets/image/me.jpg" alt="My pic" >
+						</div>
+						<!-- 1R1C-3R-2c -->
+						<div class="col-8" >
+						<p >
 
 							Hello everyone !!! Welcome, This is Rupali,Lives in tha land of happiness i.e. Portsmouth,NH.
 							I am a software Developer who loves to develope software to build great products and help businesses succeed with their goals.I appreciate good design and I am seeing it's importance more then ever in todays apps, web sites and products. 
 					
 						</p>
-					</div>
-						<p>
+						</div>
+						<p class="col">
 							I have been working professionally in software development since 2008 in dot net development and Quality Assuarance.
 						</p>
 					
@@ -127,31 +102,28 @@
 						<!-- 1R2C-3R1c -->
 						<div class="col-m">
 							<a href="https://github.com/rupali8086" target="_blank"> 
-								<img  src="assets/image/github.png" alt="Git" />
+								<img  src="assets/image/github.png" alt="Git" id="social-link" />
 							</a>
 						</div>
 				
 						<!-- 1R2C-3R2c -->
 						<div class="col-m">
 							<a href="www.linkedin.com/in/rupali-meshram" target="_blank"> 
-								<img src="assets/image/linkdin.png" alt="Linkdin" />
+								<img src="assets/image/linkdin.png" alt="Linkdin" id="social-link"/>
 							</a>
 						</div>
 						<!-- 1R2C-3R3c -->
 						<div class="col-l">
 							<a href="https://stackoverflow.com/users/8968927/rupali" target="_blank">
-								<img src="assets/image/stackflow.png" alt="Stack"  />
+								<img src="assets/image/stackflow.png" alt="Stack"  id="social-link"/>
 							</a>
 						</div>
 
 					</div>
 				</div>
 			</div>
-		</div>
-		</main>
+	</div>
 		
-	
-
 
 <!-- Footer -->
 		<nav class="navbar fixed-bottom "  id="nav-foot"> 
