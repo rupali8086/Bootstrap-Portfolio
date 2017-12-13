@@ -1,3 +1,6 @@
+/*------------------------------ with bootstrap---------------------------------------------------------*/
+
+/*------------------------------ Global setting ---------------------------------------------------*/
 * {
   box-sizing: border-box;
   
@@ -98,15 +101,7 @@ position: relative;
 #main-container {
   padding-top: 130px;
 }
-/* .main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 -4% 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-} */
+
 .main-section-content {
 	background-color: #fff;
 	width: 650px;
@@ -188,32 +183,32 @@ position: relative;
 
 
 
-.contact-form {
+/* .contact-form {
     border-radius: 5px;
     background-color: #999;
     padding: 20px;
     
-}
+} */
 
-input {
-	width: 100%;
-	border: 1px solid #eee;
-	padding: 10px;
-	float: left;
+/* input {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 10px;
+  float: left;
 }
 
 input::placeholder {
   color: lightgray;
   opacity: 1;
   }
-
+ */
 textarea  {
 	width:600px; 
 	height:100px;
 	border: 1px solid #eee;
 	
 }
-#input-submit {
+/* #input-submit {
     width: 30%;
     background-color: #4aaaa5;
     color: white;
@@ -228,19 +223,19 @@ textarea  {
 
 #input-submit:hover {
     background-color: blue;
-}
+} */
 
-#input-submit input {
+/* #input-submit input {
 
 }
 #l1 ,#l2 ,#l3 {
-	width: 100%;
-	height: 10px;
-	padding-top: 10px;
-	text-align: left;
-	margin-bottom: 5px;
-	font-weight: bold;
-}
+  width: 100%;
+  height: 10px;
+  padding-top: 10px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+} */
 
 /* ---------------------------------- page - PORTFOLIO  ------------------------------------ */
 
@@ -253,13 +248,6 @@ textarea  {
 
 }
 
-/* .work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-} */
 .image-h4 {
 	position: relative; 
    width: 100%
@@ -350,7 +338,7 @@ textarea  {
 
 
 /*----------------------------------------------------------------------------------------------------------------------*/
-/* for bootstrap */
+
 
 
 
