@@ -183,63 +183,18 @@ position: relative;
 
 
 
-/* .contact-form {
-    border-radius: 5px;
-    background-color: #999;
-    padding: 20px;
-    
-} */
 
-/* input {
-  width: 100%;
-  border: 1px solid #eee;
-  padding: 10px;
-  float: left;
-}
-
-input::placeholder {
-  color: lightgray;
-  opacity: 1;
-  }
- */
 textarea  {
 	width:600px; 
 	height:100px;
 	border: 1px solid #eee;
 	
 }
-/* #input-submit {
-    width: 30%;
-    background-color: #4aaaa5;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    
-}
 
-
-#input-submit:hover {
-    background-color: blue;
-} */
-
-/* #input-submit input {
-
-}
-#l1 ,#l2 ,#l3 {
-  width: 100%;
-  height: 10px;
-  padding-top: 10px;
-  text-align: left;
-  margin-bottom: 5px;
-  font-weight: bold;
-} */
 
 /* ---------------------------------- page - PORTFOLIO  ------------------------------------ */
 
-/**/
+
 #portfolio-setting img {
   float: left;
   margin: 20px;
